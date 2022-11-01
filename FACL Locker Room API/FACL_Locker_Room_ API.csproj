@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FACL_Locker_Room_API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FACL_Locker_Room_API.Core\FACL_Locker_Room_API.Core.csproj" />
+    <ProjectReference Include="..\FACL_Locker_Room_API.Domain\FACL_Locker_Room_API.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
